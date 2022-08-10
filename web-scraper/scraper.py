@@ -43,7 +43,7 @@ def get_citations_needed_report(url):
     return report
 
 if __name__ == '__main__':
-    URL = "https://en.wikipedia.org/wiki/Rome"
+    URL = "https://en.wikipedia.org/wiki/American_Civil_War"
     print("There are",get_citations_needed_count(URL), "cititations needed.\n")
     print(get_citations_needed_report(URL))
 
